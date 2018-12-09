@@ -1,7 +1,5 @@
 
 
-TensorFlow implementation of [[https://papers.nips.cc/paper/7213-poincare-embeddings-for-learning-hierarchical-representations][Poincaré Embeddings for Learning Hierarchical Representations]]
-
 ## Example: Embedding WordNet Mammals
 To embed the transitive closure of the WordNet mammals subtree, first generate the data via
 ```
