@@ -39,7 +39,7 @@ The steps to reproduce the results of the experiments are given in the respectiv
 
 
 *** References
-**** Original implementaion of Poincare EMbeddings from Facebook AI Research. (with unresolved issues!!!)
+**** Original implementaion of Poincare Embeddings from Facebook AI Research. (with unresolved issues!!!)
 [[https://github.com/facebookresearch/poincare-embeddings][FAIR code]]
 
 **** Instructions to setup and use Horovod with PyTorch and TensorFlow.
