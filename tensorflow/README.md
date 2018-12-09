@@ -32,7 +32,7 @@ pc-04$ python poincare_async.py --job_name="worker" --task_index=2
 ```
 Similarly for Drop Stale Synchronous (poincare_stale.py)
 
-** Dependencies
+### Dependencies
 - Python 3 with NumPy
 - TensorFlow
 - Scikit-Learn
