@@ -20,7 +20,7 @@ The embeddings are trained via Asynchronous Gradient Descent Optimizer for the d
 ```
  * In poincare_tensor.py
 ```
- def __init__(self,num_iter=100,num_negs=10,lr1=0.001,lr2=0.00001,dp='/home/rishixtreme/PycharmProjects/poincare/data/mammal_closure.tsv')
+ def __init__(self,num_iter=100,num_negs=10,lr1=0.001,lr2=0.00001,dp='/data/mammal_closure.tsv')
 ```
 
 ### Running the local code
