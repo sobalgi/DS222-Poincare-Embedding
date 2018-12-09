@@ -2,8 +2,6 @@
 
 TensorFlow implementation of [[https://papers.nips.cc/paper/7213-poincare-embeddings-for-learning-hierarchical-representations][Poincaré Embeddings for Learning Hierarchical Representations]]
 
-[[file:wn-nouns.jpg]]
-
 ## Example: Embedding WordNet Mammals
 To embed the transitive closure of the WordNet mammals subtree, first generate the data via
 ```
@@ -13,6 +11,19 @@ To embed the transitive closure of the WordNet mammals subtree, first generate t
 This will generate the transitive closure of the full noun hierarchy as well as of the mammals subtree of WordNet. 
 
 The embeddings are trained via Asynchronous Gradient Descent Optimizer for the distributed code. In the example above, the number of workers were set to 1 which should run well even on a single machine. On machines with many cores, increase workers for faster convergence.
+
+### Adjust the filenames (mammals_closure.tsv or noun_closure.tsv) 
+
+in utils.py
+```
+15 targets = set(open('/data/targets.txt').read().split('\n'))
+23 with open('/data/mammal_closure.tsv', 'w') as out:
+84 dp='/data/mammal_closure.tsv')
+```
+and in poincare_tensor.py
+```
+ def __init__(self,num_iter=100,num_negs=10,lr1=0.001,lr2=0.00001,dp='/home/rishixtreme/PycharmProjects/poincare/data/mammal_closure.tsv')
+```
 
 ### for local code
 
