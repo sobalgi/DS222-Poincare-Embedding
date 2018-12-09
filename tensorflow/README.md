@@ -26,20 +26,29 @@ The embeddings are trained via Asynchronous Gradient Descent Optimizer for the d
 ### Running the local code
 
 ```
-cd ds222/assignment2   
+cd tensorflow/Distributed
 python poincare_tensor.py
 ```
 
 ### Running the distributed code (change the nodes accordingly)
 
 ```
-cd ds222/assignment2  
+cd tensorflow/Distributed
 pc-01$ python poincare_async.py --job_name="ps" --task_index=0     
 pc-02$ python poincare_async.py --job_name="worker" --task_index=0     
 pc-03$ python poincare_async.py --job_name="worker" --task_index=1     
 pc-04$ python poincare_async.py --job_name="worker" --task_index=2    
 ```
 Similarly for Drop Stale Synchronous (poincare_stale.py)
+
+### Running the Horovod code
+
+```
+cd tensorflow/Horovod
+mpirun -np 2 \
+    -H localhost:2 \
+    python horovod_tensor.py
+```
 
 ### Dependencies
 - Python 3 with NumPy
