@@ -40,5 +40,5 @@ Similarly for Drop Stale Synchronous (poincare_stale.py)
 - HOROVOD (for the HOROVOD code)
 
 ### References
-[Distibuted tensorflow example] (https://github.com/ischlag/distributed-tensorflow-example)  
-[Distributed tensorflow documentation] (http://www.tensorflow.org/deploy/distributed)
+[Distibuted tensorflow example](https://github.com/ischlag/distributed-tensorflow-example)  
+[Distributed tensorflow documentation](http://www.tensorflow.org/deploy/distributed)
