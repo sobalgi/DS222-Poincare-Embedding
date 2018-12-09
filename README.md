@@ -10,7 +10,7 @@ git clone https://github.com/sobalgi/DS222-Poincare-Embedding.git
 cd poincare-embeddings
 ```
 
-### [Link to paper](https://papers.nips.cc/paper/7213-poincare-embeddings-for-learning-hierarchical-representations.pdf) 
-### [Link to gitrepo](https://github.com/facebookresearch/poincare-embeddings) 
+### Link to paper : [Poincaré Embeddings for Learning Hierarchical Representations](https://papers.nips.cc/paper/7213-poincare-embeddings-for-learning-hierarchical-representations.pdf) 
+### Link to gitrepo : [facebookresearch](https://github.com/facebookresearch/poincare-embeddings) 
 
-### [To run the HOROVOD setup](https://github.com/uber/horovod)
+### To run the HOROVOD setup : [HOROVOD](https://github.com/uber/horovod)
