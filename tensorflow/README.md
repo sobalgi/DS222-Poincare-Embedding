@@ -23,14 +23,14 @@ The embeddings are trained via Asynchronous Gradient Descent Optimizer for the d
  def __init__(self,num_iter=100,num_negs=10,lr1=0.001,lr2=0.00001,dp='/home/rishixtreme/PycharmProjects/poincare/data/mammal_closure.tsv')
 ```
 
-### for local code
+### Running the local code
 
 ```
 cd ds222/assignment2   
 python poincare_tensor.py
 ```
 
-### for distributed code (change the nodes accordingly)
+### Running the distributed code (change the nodes accordingly)
 
 ```
 cd ds222/assignment2  
