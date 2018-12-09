@@ -7,7 +7,7 @@ TensorFlow implementation of [[https://papers.nips.cc/paper/7213-poincare-embedd
 ## Example: Embedding WordNet Mammals
 To embed the transitive closure of the WordNet mammals subtree, first generate the data via
 ```
-  cd wordnet
+  cd pytorch/wordnet
   make
 ```
 This will generate the transitive closure of the full noun hierarchy as well as of the mammals subtree of WordNet. 
