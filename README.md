@@ -8,3 +8,9 @@ Distributed experiments on Poincare Embeddings using TensorFlow, PyTorch and HOR
 
 ### [To run the HOROVOD setup](https://github.com/uber/horovod)
 
+** Installation
+Simply clone this repository via
+#+BEGIN_SRC sh
+  git clone https://github.com/facebookresearch/poincare-embeddings.git
+  cd poincare-embeddings
+#+END_SRC
