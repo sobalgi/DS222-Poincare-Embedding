@@ -16,6 +16,8 @@ To embed the mammals subtree in the reconstruction setting without distributed t
   NTHREADS=2 ./mammal_nodist.sh
 #+END_SRC
 This shell script includes the appropriate parameter settings for the mammals subtree and saves the trained model as =mammal.pth=. 
+
+
 To embed the noun subtree in the reconstruction setting without distributed training, go to the pytorch directory of the project and run
 #+BEGIN_SRC sh
   NTHREADS=2 ./noun_nodist.sh
@@ -28,6 +30,8 @@ To embed the mammals subtree in the reconstruction setting without distributed t
   NTHREADS=2 ./mammal_dist.sh
 #+END_SRC
 This shell script includes the appropriate parameter settings for the mammals subtree and saves the trained model as =mammal.pth=. 
+
+
 To embed the noun subtree in the reconstruction setting without distributed training, go to the pytorch directory of the project and run
 #+BEGIN_SRC sh
   NTHREADS=2 ./noun_dist.sh
